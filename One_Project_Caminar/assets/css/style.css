@@ -1,1 +1,156 @@
-/* font-family: "Poppins", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 20px;
+  color: #CCC;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  background-image: url('../images/bg.jpg');
+  background-size: cover;
+}
+
+.cabecalho {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  line-height: 45px;
+}
+
+h2 {
+  color: #FFF;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+span {
+  text-transform: uppercase;
+}
+
+
+main {
+  max-width: 1750px;
+  margin:auto;
+}
+
+.container {
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0px 0px 30px 7px #333;
+}
+
+.img1 {
+  height: 550px;
+  background-image: url('../images/pic02.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+
+
+.area1 {
+  background-color: #FFF;
+}
+
+.area1--title {
+  color: #000;
+  font-size:35px;
+  font-weight: 700;
+  padding-top: 80px;
+  margin-bottom: 18px;
+}
+
+.bordinha {
+  width: 170px;
+  height: 2px;
+  margin: auto;
+  margin-bottom: 25px;
+  background-color: #DDD;
+}
+
+.area1--desc {
+  color: #BBB;
+  font-size: 19px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-bottom: 80px
+}
+
+.area1--body {
+  background-color: #EEE;
+  color: #999;
+  padding: 120px;
+  line-height: 35px;
+  text-align: left;
+}
+
+.area2 {
+  width: 100%;
+  padding: 100px;
+  background: #1e1f23;
+}
+
+.area2--content {
+  display: flex;
+  flex-direction: column;
+  background: #101010;
+}
+
+.area2--title {
+  color: #FFF;
+  font-size:35px;
+  font-weight: 700;
+  padding-top: 80px;
+  margin-bottom: 18px;
+}
+
+.area2--desc {
+  color: #BBB;
+  font-size: 19px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-bottom: 80px
+}
+
+.area2--body {
+
+}
+.img--area {
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 350px);
+}
+
+.img--area .img1 {
+  width: 100%;
+  background-image: url('../images/pic03.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.img--area .img2 {
+
+  background-image: url('../images/pic01.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.img--area .img3 {
+ 
+  background-image: url('../images/pic04.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.img--area .img4 {
+
+  background-image: url('../images/pic05.jpg');
+  background-size: cover;
+  background-position: center;
+}
