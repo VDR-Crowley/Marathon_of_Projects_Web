@@ -121,6 +121,7 @@ main {
 .area2--body {
 
 }
+
 .img--area {
 
   display: grid;
@@ -130,6 +131,7 @@ main {
 
 .img--area .img1 {
   width: 100%;
+  height: auto;
   background-image: url('../images/pic03.jpg');
   background-size: cover;
   background-position: center;
