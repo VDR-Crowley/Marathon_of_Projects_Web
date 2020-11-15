@@ -4,27 +4,32 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 body {
-  font-size: 20px;
+  font-size: 22px;
   color: #CCC;
   text-align: center;
   font-family: "Poppins", sans-serif;
-  background-image: url('../images/bg.jpg');
+  background-color: #1e1f23;
   background-size: cover;
+  background-attachment: scroll;
+  background-position: top;
+  background-image: url('../images/bg.jpg');
 }
 
 .cabecalho {
-  margin-top: 100px;
-  margin-bottom: 50px;
-  line-height: 45px;
+  margin-top: 165px;
+  margin-bottom: 80px;
+  line-height: 43px;
 }
 
 h2 {
   color: #FFF;
-  font-size: 70px;
+  font-size: 88px;
   font-weight: bold;
+  margin-bottom: 10px;
 }
 
 span {
@@ -33,6 +38,7 @@ span {
 
 
 main {
+  position: relative;
   max-width: 1750px;
   margin:auto;
 }
@@ -40,7 +46,7 @@ main {
 .container {
   width: 100%;
   border-radius: 5px;
-  box-shadow: 0px 0px 30px 7px #333;
+  box-shadow: 0px 0px 30px 7px #000;
 }
 
 .img1 {
@@ -137,22 +143,59 @@ main {
   background-position: center;
 }
 .img--area .img2 {
-
+  width: 100%;
+  height: auto;
   background-image: url('../images/pic01.jpg');
   background-size: cover;
   background-position: center;
 }
 
 .img--area .img3 {
- 
+  width: 100%;
+  height: auto;
   background-image: url('../images/pic04.jpg');
   background-size: cover;
   background-position: center;
 }
 
 .img--area .img4 {
-
+  width: 100%;
+  height: auto;
   background-image: url('../images/pic05.jpg');
   background-size: cover;
   background-position: center;
 }
+
+
+.area4 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 800px;
+}
+
+.area4--conteudo {
+  background: #fff;
+  height: auto;
+  text-align: left;
+  padding: 100px;
+  padding-top: 240px;
+  line-height: 40px;
+  color: #999;
+}
+
+.area4--title {
+  color: #000;
+  font-weight: bold;
+  font-size: 35px;
+  margin: 20px 0;
+}
+
+.area4--conteudo p {
+  font-size: 25px
+}
+
+.area4--img {
+  background-image: url('../images/pic06.jpg');
+  background-size: cover;
+  background-position: center;
+} 
