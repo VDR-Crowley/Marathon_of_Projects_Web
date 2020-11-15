@@ -167,13 +167,13 @@ main {
 }
 
 
-.area4 {
+.area3 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 800px;
 }
 
-.area4--conteudo {
+.area3--conteudo {
   background: #fff;
   height: auto;
   text-align: left;
@@ -183,8 +183,41 @@ main {
   color: #999;
 }
 
-.area4--title {
+.area3--title {
   color: #000;
+  font-weight: bold;
+  font-size: 35px;
+  margin: 20px 0;
+}
+
+.area3--conteudo p {
+  font-size: 25px
+}
+
+.area3--img {
+  background-image: url('../images/pic06.jpg');
+  background-size: cover;
+  background-position: center;
+} 
+
+.area4 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 800px;
+}
+
+.area4--conteudo {
+  background: #1e1f23;
+  height: auto;
+  text-align: right;
+  padding: 100px;
+  padding-top: 240px;
+  line-height: 40px;
+  color: #454545;
+}
+
+.area4--title {
+  color: #fff;
   font-weight: bold;
   font-size: 35px;
   margin: 20px 0;
@@ -195,7 +228,74 @@ main {
 }
 
 .area4--img {
-  background-image: url('../images/pic06.jpg');
+  background-image: url('../images/pic07.jpg');
   background-size: cover;
   background-position: center;
 } 
+
+.area5 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 800px;
+}
+
+.area5--conteudo {
+  background: #FFF;
+  height: auto;
+  text-align: left;
+  padding: 100px;
+  padding-top: 240px;
+  line-height: 40px;
+  color: #999;
+}
+
+.area5--title {
+  color: #000;
+  font-weight: bold;
+  font-size: 35px;
+  margin: 20px 0;
+}
+
+.area5--conteudo p {
+  font-size: 25px
+}
+
+.area5--img {
+  background-image: url('../images/pic08.jpg');
+  background-size: cover;
+  background-position: center;
+} 
+
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.footer--social {
+  padding: 50px;
+}
+
+.footer--social a {
+  text-decoration: none;
+  color: #CCC;
+  font-size: 35px;
+  padding: 12px;
+}
+
+.footer--social a:hover,
+.footer--copy a:hover {
+  color: #fff;
+}
+
+.footer--copy a{
+  color: #CCC;
+  text-decoration: none;
+}
+
+.footer--copy a:hover {
+  text-decoration: underline;
+}
