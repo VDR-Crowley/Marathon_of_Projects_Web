@@ -299,3 +299,25 @@ footer {
 .footer--copy a:hover {
   text-decoration: underline;
 }
+
+
+
+
+@media (max-width: 768px) {
+  .area3 {
+    grid-template-columns: 1fr;
+  }
+
+  .area4 {
+    grid-template-columns: 1fr;
+  }
+
+  .area5 {
+    grid-template-columns: 1fr;
+  }
+
+  .img--area {
+    grid-template-columns: 1fr;
+    
+  }
+}
