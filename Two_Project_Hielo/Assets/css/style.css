@@ -24,11 +24,30 @@ header {
   position: absolute;
 }
 
+.logo {
+  position: relative;
+  color: #CCC;
+  font-size: 25px;
+  top: 50px;
+  left: 50px;
+}
+
+.logo a {
+  font-size: 27px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo a:hover {
+  color: #CCC;
+}
+
 .menu--hamburger {
   position: relative;
   color: #CCC;
   font-size: 30px;
-  left: 1730px;
+  left: 1630px;
+  top: 50px;
 }
 
 .menu--hamburger i {
@@ -40,9 +59,55 @@ nav {
   display: none;
 }
 
+.menu {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.9);
+  padding: 20px;
+  left: 1600px;
+  top: 0;
+}
+
+.menu--fecha {
+  color: #CCC;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 19%;
+  cursor: pointer;
+}
+
+.menu--fecha:hover {
+  color:#000;
+}
+
+.menu ul {
+  list-style: none;
+}
+
+.menu ul li {
+  padding-left: 15px;
+}
+
+.menu ul li a {
+  font-size: 25px;
+  color: #454545;
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-decoration: none;
+}
+
+.menu .borda {
+  width: 380px;
+  height: 2px;
+  margin-left: 20px;
+  background: #454545;
+}
+
 
 .banner {
-  height: calc(100vh - 100px);
+  height: calc(100vh - 0px);
   background-color: #333;
   background-position: bottom;
   overflow: hidden;
