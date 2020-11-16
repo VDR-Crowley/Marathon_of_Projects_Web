@@ -38,7 +38,6 @@ span {
 
 
 main {
-  position: relative;
   max-width: 1750px;
   margin:auto;
 }
@@ -300,6 +299,19 @@ footer {
   text-decoration: underline;
 }
 
+@media (max-width: 970px) {
+  .area3--conteudo {
+    padding: 20px;
+  }
+
+  .area4--conteudo {
+    padding: 20px;
+  }
+
+  .area5--conteudo {
+    padding: 20px;
+  }
+}
 
 
 
@@ -318,6 +330,95 @@ footer {
 
   .img--area {
     grid-template-columns: 1fr;
-    
+    grid-auto-rows: 300px;
   }
+
+}
+
+@media (min-width: 300px) and (max-width:580px){
+
+  body {
+    font-size: 18px;
+  }
+
+  h2 {
+    font-size: 58px;
+  }
+
+  /*.container {
+    width: 100%;
+  }*/
+
+  main {
+    overflow-x: hidden;
+  }
+
+  .area1--title {
+    font-size: 21px;
+  }
+
+  .area1--desc {
+    font-size: 15px;
+  }
+
+  .area1--body {
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  .area2 {
+    padding: 0px;
+  }
+
+  .area2--title {
+    font-size: 21px;
+  }
+
+  .area2--desc {
+    font-size: 15px;
+  }
+
+  .area2--body {
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  .area3--title {
+    font-size: 30px;
+  }
+
+  .area3--conteudo {
+    text-align: center;
+    font-size: 18px;
+    padding: 20px 10px;
+  }
+
+  .area3--img {
+    display: none;
+  }
+
+  .area4--title {
+    font-size: 30px;
+  }
+
+  .area4--conteudo {
+    text-align: center;
+    font-size: 18px;
+    padding: 20px 10px;
+  }
+
+  .area5--title {
+    font-size: 30px;
+  }
+
+  .area5--conteudo {
+    text-align: center;
+    font-size: 18px;
+    padding: 20px 10px;
+  }
+
+  .footer--social {
+    padding: 20px 0px;
+  }
+
 }
