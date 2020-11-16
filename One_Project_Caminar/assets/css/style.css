@@ -7,6 +7,10 @@
   
 }
 
+body, html {
+  height: 100%;
+}
+
 body {
   font-size: 22px;
   color: #CCC;
@@ -16,12 +20,13 @@ body {
   background-size: cover;
   background-attachment: scroll;
   background-position: top;
+	background-repeat:no-repeat;
   background-image: url('../images/bg.jpg');
 }
 
 .cabecalho {
-  margin-top: 165px;
-  margin-bottom: 80px;
+  margin-top: 210px;
+  margin-bottom: 90px;
   line-height: 43px;
 }
 
