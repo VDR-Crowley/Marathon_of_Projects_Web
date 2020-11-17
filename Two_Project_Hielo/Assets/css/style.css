@@ -168,11 +168,40 @@ nav {
 }
 
 .banner .slidearea {
+  position: absolute;
   display: flex;
   flex-direction: column;
   height: 100%;
   justify-content: center;
   align-items: center;
   color: #fff;
+  left: 30%;
+  top: -1%
+}
+
+.banner h4 {
+  letter-spacing: 4px;
+  font-size: 25px;
+  color: #999;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.banner h4 a {
+  color: #CCC;
+  text-decoration: none;
+}
+
+.banner .borda {
+  width: 50%;
+  height: 2px;
+  background: #999;
+  margin-top: 55px;
+  margin-bottom: -5px;
+}
+.banner h2 {
+  font-size: 150px;
+  padding: 5px;
+  font-weight: 300;
 }
 
