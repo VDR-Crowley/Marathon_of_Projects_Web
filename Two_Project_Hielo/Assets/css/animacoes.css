@@ -12,3 +12,17 @@
   animation-delay: 120ms;
   animation-fill-mode: backwards;
 }
+
+@keyframes menu {
+  from {
+    width: 0vw;
+  } to {
+    width: 100vw
+  }
+}
+
+.menu {
+  animation-name: menu;
+  animation-duration: 200ms;
+  animation-fill-mode: forwards;
+}

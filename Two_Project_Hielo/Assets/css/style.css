@@ -68,7 +68,7 @@ nav {
   height: 100vh;
   background: rgba(0,0,0,0.9);
   padding: 20px;
-  left: 1600px;
+  right: -1600px;
   top: 0;
 }
 
@@ -115,7 +115,6 @@ nav {
   background-color: #333;
   background-position: bottom;
   overflow: hidden;
-  position: relative;
 }
 
 .banner .sliders {
