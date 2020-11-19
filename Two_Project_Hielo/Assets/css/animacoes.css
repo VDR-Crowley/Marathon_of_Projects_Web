@@ -1,0 +1,14 @@
+@keyframes logo {
+  from {
+    opacity: 0;
+  } to {
+    opacity: 1;
+  }
+}
+
+.logo {
+  animation-name: logo;
+  animation-duration: 500ms;
+  animation-delay: 120ms;
+  animation-fill-mode: backwards;
+}
