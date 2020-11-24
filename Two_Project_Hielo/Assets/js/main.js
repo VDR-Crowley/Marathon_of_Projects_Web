@@ -1,19 +1,20 @@
-function abremenu() {
+function menuToggle() {
   
-  if(document.querySelector("nav").style.display == 'flex') {
-    document.querySelector("nav").style.display = 'none'
+  let abrir = document.getElementById('menu')
+  let someMenu = document.querySelector('.menu--hamburger')
 
-  } else {
-    document.querySelector("nav").style.display = 'flex'
-    document.querySelector(".menu--hamburger").style.display = 'none'
+  if(abrir.classList.contains('menu-toggle') == false) {
+    abrir.classList.add('menu-toggle')
+    someMenu.style.display = 'none'
   }
-
 }
 
 function fechamenu() {
-  if(document.querySelector("nav").style.display == 'flex') {
-    document.querySelector(".menu--fecha").style.display = 'flex'
-    document.querySelector("nav").style.display = 'none'
-    document.querySelector(".menu--hamburger").style.display = 'flex'
+  let fechar = document.getElementById('menu')
+  let someMenu = document.querySelector('.menu--hamburger')
+
+  if (fechar.classList.contains('menu-toggle') == true) {
+    fechar.classList.remove('menu-toggle')
+    someMenu.style.display = 'flex'
   }
 }

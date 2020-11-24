@@ -58,18 +58,20 @@ header {
   margin-right: 15px;
 }
 
-nav {
-  display: none;
-}
 
-.menu {
+#menu {
   position: fixed;
-  width: 100vw;
+  width: 0px;
   height: 100vh;
   background: rgba(0,0,0,0.9);
   padding: 20px;
   right: -1600px;
   top: 0;
+  transition: all ease 0.3s;
+}
+
+.menu-toggle {
+  width: 100vw !important;
 }
 
 .menu--fecha {
@@ -84,15 +86,15 @@ nav {
   color:#000;
 }
 
-.menu ul {
+#menu ul {
   list-style: none;
 }
 
-.menu ul li {
+#menu ul li {
   padding-left: 15px;
 }
 
-.menu ul li a {
+#menu ul li a {
   font-size: 25px;
   color: #454545;
   display: block;
@@ -101,7 +103,7 @@ nav {
   text-decoration: none;
 }
 
-.menu .borda {
+#menu .borda {
   width: 380px;
   height: 2px;
   margin-left: 20px;

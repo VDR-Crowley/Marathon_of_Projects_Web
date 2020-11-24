@@ -13,16 +13,19 @@
   animation-fill-mode: backwards;
 }
 
-@keyframes menu {
+@keyframes banner {
   from {
-    width: 0vw;
+    opacity: 0;
+
   } to {
-    width: 100vw
+    opacity: 1;
   }
 }
 
-.menu {
-  animation-name: menu;
-  animation-duration: 200ms;
-  animation-fill-mode: forwards;
+.menu--hamburger,
+.banner h4,
+.banner h2,
+.banner a  {
+  animation-name: banner;
+  animation-duration: 1s;
 }
