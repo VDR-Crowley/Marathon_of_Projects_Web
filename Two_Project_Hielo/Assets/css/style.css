@@ -39,6 +39,7 @@ header {
   font-size: 17px;
   top: 30px;
   left: 10px;
+  z-index: 88888;
 }
 
 .logo a {
@@ -57,6 +58,7 @@ header {
   font-size: 17px;
   left: 1250px;
   top: 30px;
+  z-index: 88888;
 }
 
 .menu--hamburger i {
@@ -73,7 +75,8 @@ header {
   padding: 20px;
   right: -1065px;
   top: 0;
-  transition: all ease 0.3s;
+  transition: 1s;
+  z-index: 88888;
 }
 
 .menu-toggle {
@@ -126,6 +129,7 @@ header {
   overflow: hidden;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .banner .sliders {
@@ -136,10 +140,11 @@ header {
 .banner .slide1 { 
   width: 100vw;
   height: 100%;
-  background-image: url('../images/slide01.jpg');
   background-size: cover;
   display: inline-block;
-  background-color: rgba(0,0,0,0.7);
+  animation-name: slider;
+  animation-duration: 9000ms;
+  animation-iteration-count: infinite;
 }
 .banner .slide2 {
   width: 100vw;
@@ -147,7 +152,6 @@ header {
   background-image: url('../images/slide02.jpg');
   background-size: cover;
   display: inline-block;
-  background-color: rgba(0,0,0,0.7);
 }
 .banner .slide3 {
   width: 100vw;
@@ -155,7 +159,6 @@ header {
   background-image: url('../images/slide03.jpg');
   background-size: cover;
   display: inline-block;
-  background-color: rgba(0,0,0,0.7);
 }
 
 .banner .sliders-pointers {
@@ -171,7 +174,7 @@ header {
 .banner .pointer {
   width: 12px;
   height: 12px;
-  background: #fff;
+  background: #999;
   border-radius: 10px;
   margin-left: 10px;
   margin-right: 10px;
@@ -189,7 +192,7 @@ header {
   justify-content: center;
   align-items: center;
   color: #fff;
-
+  background-color: rgba(0,0,0,0.5);
 }
 
 .banner h4 {
