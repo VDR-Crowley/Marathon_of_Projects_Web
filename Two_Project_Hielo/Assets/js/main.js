@@ -18,3 +18,19 @@ function fechamenu() {
     someMenu.style.display = 'flex'
   }
 }
+/*
+let sliderPointers = document.querySelector('.sliders-pointers')
+let pointer = document.querySelectorAll('.banner .pointer');
+
+pointer[1].addEventListener('click', () => {
+    if(pointer[1].classList.contains('active') === false) {
+      pointer[1].classList.add('active');
+      pointer[0].classList.remove('active');
+    }else {
+      pointer[0].classList.add('active');
+      pointer[1].classList.remove('active');
+    }
+  
+});
+*/
+

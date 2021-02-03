@@ -130,6 +130,8 @@ header {
   justify-content: center;
   align-items: center;
   position: relative;
+  animation-name: bannerSlider;
+  animation-duration: 2s;
 }
 
 .banner .sliders {
@@ -174,15 +176,24 @@ header {
 .banner .pointer {
   width: 12px;
   height: 12px;
-  background: #999;
+  background-color: #777;
   border-radius: 10px;
   margin-left: 10px;
   margin-right: 10px;
   cursor: pointer;
+
+  animation-name: pointer;
+  animation-duration: 10000ms;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-play-state: running;
 }
 
 .banner .pointer.active {
-  background-color: #fff;
+ /* background-color: #fff !important;
+*/
 }
 
 .banner .slidearea {
@@ -224,8 +235,67 @@ header {
 
 .area1 {
   position: relative;
-  height: 200px;  
 }
+
+.area1--content {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 600px);
+  grid-template-rows: repeat(1, 800px);
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgba(200,200,200,0.5)
+}
+
+.area1--conteudo1, .area1--conteudo2 {
+  background-color: #fff;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.area1 small {
+  display: inline-block;
+  letter-spacing: 4px;
+}
+
+.area1 small,
+.area1 p {
+  color: #999;
+  margin-top: 30px;
+}
+
+.area1 h3 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.area1 p {
+  text-align: left;
+  margin:30px 50px;
+}
+
+.area1 .borda {
+  width: 50%;
+  height: 1px;
+  margin: 10px auto;
+  background-color: #AAA;
+}
+
+.area1 a input{
+  text-transform: uppercase;
+  font-size: 15px;
+  padding: 10px 20px;
+  background-color: #fff;
+  border: 2px solid #CCC;
+}
+
+.area1 a input:hover {
+  background-color: rgba(220,220,220,0.5);
+  transition: 500ms;
+}
+
+
+
 
 .area2 {
   height:100%;
