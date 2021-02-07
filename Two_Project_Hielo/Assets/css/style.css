@@ -363,3 +363,21 @@ h2 {
   width: 100%;
   height: 100%;
 }
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #AAA;
+  background-color: black;
+  padding: 90px;
+}
+
+.social {
+  font-size: 40px;
+}
+
+footer span {
+  margin-top: 10px;
+}
