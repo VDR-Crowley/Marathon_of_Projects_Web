@@ -298,18 +298,38 @@ header {
 
 
 .area2 {
-  height:100%;
+  height:50%;
 	opacity:0.8;
 	position: relative;
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-position:center;
   background-attachment:fixed;
-  background-image:url('../images/bg.jpg');  
+  background-image:url('../images/bg.jpg');
+  background-color: #000;
 }
 
 
+.area2--img {
+  width:100%;
+  height:100%;
+  padding: 110px;
+  display: block;
+  position: absolute;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.507);
+}
 
+.area2--img .borda {
+  width: 80%;
+  height: 1px;
+  margin: 20px auto;
+  background-color: #BBB;
+}
+
+.area2--img h2 {
+  color: #fff;
+}
 
 .area3 {
   display:flex;
