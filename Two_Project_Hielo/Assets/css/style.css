@@ -75,7 +75,7 @@ header {
   padding: 20px;
   right: -1065px;
   top: 0;
-  transition: 1s;
+  transition: 400ms;
   z-index: 88888;
 }
 
@@ -89,6 +89,7 @@ header {
   font-weight: bold;
   margin-left: 19%;
   cursor: pointer;
+  transition: 400ms;
 }
 
 .menu--fecha:hover {
@@ -135,7 +136,7 @@ header {
 }
 
 .banner .sliders {
-  width: 300vw;
+  width: 500vw;
   height: 100%;
 }
 
@@ -144,23 +145,50 @@ header {
   height: 100%;
   background-size: cover;
   display: inline-block;
+  position: absolute;
+  z-index: 5;
   animation-name: slider;
   animation-duration: 9000ms;
   animation-iteration-count: infinite;
+  background-image: url('../images/slide01.jpg');
 }
 .banner .slide2 {
   width: 100vw;
   height: 100%;
+  position: absolute;
   background-image: url('../images/slide02.jpg');
   background-size: cover;
   display: inline-block;
+  z-index: 4;
 }
 .banner .slide3 {
   width: 100vw;
   height: 100%;
+  position: absolute;
   background-image: url('../images/slide03.jpg');
   background-size: cover;
   display: inline-block;
+  z-index: 4;
+}
+
+.banner .slide4 {
+  width: 100vw;
+  height: 100%;
+  position: absolute;
+  background-image: url('../images/slide04.jpg');
+  background-size: cover;
+  display: inline-block;
+  z-index: 4;
+}
+
+.banner .slide5 {
+  width: 100vw;
+  height: 100%;
+  position: absolute;
+  background-image: url('../images/slide05.jpg');
+  background-size: cover;
+  display: inline-block;
+  z-index: 4;
 }
 
 .banner .sliders-pointers {
@@ -171,6 +199,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 9999999999999999;
 }
 
 .banner .pointer {
@@ -181,7 +210,9 @@ header {
   margin-left: 10px;
   margin-right: 10px;
   cursor: pointer;
+  z-index: 88888;
 
+/*
   animation-name: pointer;
   animation-duration: 10000ms;
   animation-fill-mode: forwards;
@@ -189,11 +220,10 @@ header {
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-play-state: running;
-}
+*/}
 
-.banner .pointer.active {
- /* background-color: #fff !important;
-*/
+.active {
+  background-color: #fff !important;
 }
 
 .banner .slidearea {
